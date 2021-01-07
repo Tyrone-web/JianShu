@@ -20,8 +20,9 @@ class List extends PureComponent {
                                     <h3 className="title">{item.title}</h3>
                                     <p className="desc">{item.desc}</p>
                                 </ListInfo>
-                            </ListItem>)
-                        </Link>)
+                            </ListItem>
+                        </Link>
+                        )
                 }
                 <LoadMore onClick={() => getMoreListData(articlePage)}>阅读更多</LoadMore>
             </div>
